@@ -12,10 +12,10 @@ if (remainder := value % 5):
 
 available_sizes = ["small", "medium", "large"]
 
-# if (requested_size := input("Enter your size: ")) in available_sizes:
-#     print(f"Serving {requested_size} tea")
-# else:
-#     print(f"{requested_size} not availble")
+if (requested_size := input("Enter your size: ")) in available_sizes:
+    print(f"Serving {requested_size} tea")
+else:
+    print(f"{requested_size} not availble")
 
 
 
